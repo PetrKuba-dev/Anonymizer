@@ -14,7 +14,7 @@ class CsvLoader
      * @return array Pole hodnot z CSV
      * @throws Exception Pokud soubor neexistuje nebo je prázdný
      */
-    public static function load(string $filename, string $relativePath = 'data/'): array
+    public static function load(string $filename, string $relativePath = 'data/cs/'): array
     {
         $filePath = dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . $relativePath . $filename;
 
