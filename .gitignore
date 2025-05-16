@@ -1,0 +1,26 @@
+# Composer
+/vendor/
+
+# Logs
+*.log
+
+# Cache and temp
+/tmp/
+*.cache
+
+# IDE files
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Environment files
+.env
+
+# Testing index
+index.php
